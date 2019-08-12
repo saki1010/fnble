@@ -13,6 +13,9 @@ Step 2. Add the dependency
 	dependencies {
 	        implementation 'com.github.saki1010:fnble:Tag'
 	}
+Step 3. 在Manifest文件中添加
+
+	<service android:name=".bluetooth.BluetoothLeService.BluetoothLeService" android:enabled="true"/>
 初始化操作
 
 	BluetoothHelper.getInstance().initBlueTooth(this)
