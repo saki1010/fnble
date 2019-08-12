@@ -15,7 +15,7 @@ Step 2. Add the dependency
 	}
 Step 3. 在Manifest文件中添加
 
-	<service android:name=".bluetooth.BluetoothLeService.BluetoothLeService" android:enabled="true"/>
+	<service android:name="com.fengniao.fnbluetooth.bluetooth.BluetoothLeService.BluetoothLeService" android:enabled="true"/>
 初始化操作
 
 	BluetoothHelper.getInstance().initBlueTooth(this)
