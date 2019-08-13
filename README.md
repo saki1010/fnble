@@ -19,6 +19,9 @@ Step 3. 在Manifest文件中添加
 初始化操作
 
 	BluetoothHelper.getInstance().initBlueTooth(this)
+注销操作
+
+	BluetoothHelper.getInstance().destoryBluetooth()
 调用示例
 	
 	BluetoothHelper.getInstance().tryToConnectBlueTooth(true, address, new BleResultCallback() {
